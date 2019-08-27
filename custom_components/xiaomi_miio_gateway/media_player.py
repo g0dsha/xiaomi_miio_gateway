@@ -9,7 +9,7 @@ from functools import partial
 
 import homeassistant.helpers.config_validation as cv
 from homeassistant.components.media_player import (
-    MediaPlayerDevice, MEDIA_PLAYER_SCHEMA, PLATFORM_SCHEMA)
+    MediaPlayerDevice, PLATFORM_SCHEMA)
 from homeassistant.components.media_player.const import (
     SUPPORT_TURN_ON, SUPPORT_TURN_OFF, SUPPORT_VOLUME_MUTE,
     SUPPORT_VOLUME_STEP, SUPPORT_VOLUME_SET, SUPPORT_NEXT_TRACK)
